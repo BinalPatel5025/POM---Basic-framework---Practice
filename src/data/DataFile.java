@@ -13,5 +13,6 @@ Xls_Reader readXL = new Xls_Reader("C:\\testing\\frameworkExcel.xlsx");
 	public String specialCharEmailErr = readXL.getCellData("Sheet1", 4, 2) ;
 	public String emptyEmailErr =readXL.getCellData("Sheet1", 5, 2) ;
 	public String emptyPasswordErr =readXL.getCellData("Sheet1", 6, 2) ;
-
+	
+	//this is datafile
 }
